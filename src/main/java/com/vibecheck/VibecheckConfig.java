@@ -9,11 +9,11 @@ public interface VibecheckConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
-		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+		name = "Current Vibe",
+		description = "The vibe displayed to the user when they log in"
 	)
 	default String greeting()
 	{
-		return "Hello";
+		return "\"mid\"";
 	}
 }
