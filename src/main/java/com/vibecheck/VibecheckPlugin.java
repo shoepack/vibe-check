@@ -41,7 +41,7 @@ public class VibecheckPlugin extends Plugin
 	{
 		if (gameStateChanged.getGameState() == GameState.LOGGED_IN)
 		{
-			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "Example says " + config.greeting(), null);
+			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "[VibeCheck] The vibe is ..." + config.greeting(), null);
 		}
 	}
 
